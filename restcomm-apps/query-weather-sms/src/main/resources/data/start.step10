@@ -1,0 +1,1 @@
+{"text":"received sms from:$core_From ,$core_Body","to":"$core_From","from":"$core_To","kind":"sms","label":"sms","title":"sms","name":"step10"}

@@ -1,0 +1,1 @@
+{"text":"The weather on will be $weather , with rain probability of $rainProbability","to":"$core_From","from":"$core_To","kind":"sms","label":"sms","title":"sms","name":"step1"}
