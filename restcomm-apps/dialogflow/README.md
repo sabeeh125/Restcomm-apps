@@ -16,7 +16,7 @@ User: I would like to order a gift card with $50 on it.
 User: I’m looking for a present.
 
 
-#### Installation
+#### Project Installation
 * clone this project:
 
     ``git clone https://github.com/ajamous/DialogFlow_Restcomm.git``
@@ -64,6 +64,6 @@ if everything is setup correctly you should get a response like this one
   "response": "Good day! I have a lot coffee and snacks. What can I get you to drink?"
   }``
   
- #### Restcomm (RVD) Setup Guide 
+ #### Restcomm Setup 
   
-In progress.. 
+Step by step guide coming soon. 
