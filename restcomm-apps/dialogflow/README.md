@@ -1,5 +1,6 @@
 ## Introduction
 
+### Coffee Agent
 This is a coffee ordering SMS application powered by Google's machine learning and Ai + Restcomm Cloud.
 
 This agent allows your app to help users with order coffee drinks, snacks, and other merchandise from a coffee shop service. 
@@ -16,7 +17,7 @@ User: I would like to order a gift card with $50 on it.
 User: I’m looking for a present.
 
 
-#### Project Installation
+#### Installation
 * clone this project:
 
     ``git clone https://github.com/ajamous/DialogFlow_Restcomm.git``
@@ -28,7 +29,7 @@ User: I’m looking for a present.
     ``composer install``
 #### DialogFlow and Google setup:
 * visit dialogflow.com and login to your account
-* from the left menu, click on "prebuild Agents" and import the "Coffee Shop" agent.
+* from the left menu, click on "prebuild Agents" and import the "Coffee Shop" for example agent.
 * it will ask you to create a Google project or use an existing one.
 * after importing, click on the gear next to the agent name on the left menu.
 * click on the service account link, to visit Google console.
@@ -38,15 +39,16 @@ User: I’m looking for a present.
 #### Complete installation
 * copy the .env file `cp .env.example .env` and open for edit
 * set **database** parameters.
-* set the `GOOGLE_APPLICATION_CREDENTIALS` parameter to be the name of the downloaded JSON file.
-* set the `PROJECT_ID parameter` to the created project ID.
+* rename the downloaded JSON file to `AGENT_NAME.json` replace AGENT_NAME with the Agent Name that you are using, this will also be the active end point for this Agent `/AGENT_NAME`
 * then run `php artisan migrate` to create the database tables.
 * and finally create a user with a simple token to call the API using
 `php artisan generate:token`
 
  #### Testing The Setup
- to test the API, use any REST client to make a POST request to the end point 
- `/sms`
+ to test the API, use any REST client to make a POST request to the end point `/{AGENT_NAME}`
+  for example:
+ `/coffee` for Coffee Agent.
+ `/banking` for Banking Agent.
  with the headers:
  
  `authorization: Bearer YOUR_GENERATED_TOKEN_HERE`
@@ -64,6 +66,6 @@ if everything is setup correctly you should get a response like this one
   "response": "Good day! I have a lot coffee and snacks. What can I get you to drink?"
   }``
   
- #### Restcomm Setup 
+ #### Restcomm (RVD) Setup Guide 
   
-Step by step guide coming soon. 
+In progress.. 

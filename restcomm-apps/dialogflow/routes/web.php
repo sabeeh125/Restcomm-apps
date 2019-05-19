@@ -11,6 +11,4 @@
 |
 */
 
-use Illuminate\Http\Request;
-
-$router->post('/sms', ['middleware' => 'auth', 'uses' => 'SmsController@dialogflow']);
+$router->post('/{agent}', ['middleware' => 'auth', 'uses' => 'SmsController@detectAgent']);
