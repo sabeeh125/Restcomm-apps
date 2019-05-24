@@ -20,6 +20,25 @@ User: I’m hungry.
 User: I would like to order a gift card with $50 on it. 
 User: I’m looking for a present.
 
+### Banking Agent
+This is a banking IVR application powered by Google's machine learning and Ai (DialogFlow) + Restcomm Cloud.
+
+This agent allows your app to help users with self-service banking services.
+
+* Examples: 
+
+User Speech: Balance
+
+User Speech: Check my card balance
+
+User Speech: Transfer $10 from checking to savings
+
+User Speech: What's my checking account balance
+
+User Speech: What's my savings account balance
+
+User Speech: I would like to transfer money
+
 
 #### Installation
 * clone this project:
