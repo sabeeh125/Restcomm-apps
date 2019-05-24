@@ -12,12 +12,19 @@ This agent allows your app to help users with order coffee drinks, snacks, and o
 * Examples: 
 
 User: I’d like a coffee to go. 
+
 User: Can I get a small iced latte with low fat milk? 
+
 User: Two medium cappuccinos please.  
+
 User: Can I get three doughnuts please? 
+
 User: I’d love to get a bagel with cream cheese. 
+
 User: I’m hungry. 
+
 User: I would like to order a gift card with $50 on it. 
+
 User: I’m looking for a present.
 
 ### Banking Agent
