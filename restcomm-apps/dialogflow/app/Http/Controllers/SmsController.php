@@ -17,7 +17,7 @@ class SmsController extends Controller
             $response = DialogFlowDetectIntent::detectIntent(
                 array_pop($agentsKey),
                 $request->input('sms'),
-                $request->user()->id
+                $agentName.'-'.$request->user()->id
             );
             return ['response' => $response];
         }
