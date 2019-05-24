@@ -45,10 +45,11 @@ User: I’m looking for a present.
 `php artisan generate:token`
 
  #### Testing The Setup
- to test the API, use any REST client to make a POST request to the end point `/{AGENT_NAME}`
+ To test the API, use any REST client to make a POST request to the end point `/{AGENT_NAME}`
   for example:
  `/coffee` for Coffee Agent.
  `/banking` for Banking Agent.
+ 
  with the headers:
  
  `authorization: Bearer YOUR_GENERATED_TOKEN_HERE`
@@ -68,4 +69,4 @@ if everything is setup correctly you should get a response like this one
   
  #### Restcomm (RVD) Setup Guide 
   
-In progress.. 
+Check out our blog post for detailed setup at 
