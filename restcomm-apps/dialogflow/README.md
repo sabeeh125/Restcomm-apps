@@ -20,11 +20,11 @@ User: I’m looking for a present.
 #### Installation
 * clone this project:
 
-    ``git clone https://github.com/ajamous/DialogFlow_Restcomm.git``
+    ``git clone https://github.com/RestComm/Restcomm-apps.git``
 
 * then install dependencies:
 
-    ``cd DialogFlow_Restcomm/``
+    ``cd dialogflow/``
     
     ``composer install``
 #### DialogFlow and Google setup:
