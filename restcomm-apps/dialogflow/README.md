@@ -69,4 +69,4 @@ if everything is setup correctly you should get a response like this one
   
  #### Restcomm (RVD) Setup Guide 
   
-Check out our blog post for detailed setup at 
+Check out our blog post for detailed setup at https://www.restcomm.com/restcomm-and-google-dialogflow-ai-in-action/
